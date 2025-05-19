@@ -1,0 +1,16 @@
+#nav_menu {
+  background-color: whitesmoke;
+}
+#nav_menu .nav_logo {
+  text-transform: uppercase;
+}
+#nav_menu .nav_logo img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+#nav_menu .navbar-nav a {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}

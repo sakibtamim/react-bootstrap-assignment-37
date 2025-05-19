@@ -1,0 +1,8 @@
+.carousel-control-next,
+.carousel-control-prev {
+  top: 50% !important;
+}
+
+.item img {
+  height: 600px;
+}
