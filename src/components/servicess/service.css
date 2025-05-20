@@ -1,0 +1,23 @@
+#service {
+  padding-top: 100px;
+}
+.service_main {
+  border: none !important;
+}
+.service_main .card-title {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+.service_main h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.service_main .card-text {
+  font-size: 14px !important;
+  font-weight: normal;
+}
+.service_header h2 {
+  font-size: 34px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}

@@ -5,7 +5,7 @@ import Logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" id="nav_menu">
+    <Navbar expand="lg" fixed="top" id="nav_menu">
       <Container>
         <Navbar.Brand href="#home" className="nav_logo">
           <img src={Logo} alt="" />
@@ -14,11 +14,11 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Service</Nav.Link>
-            <Nav.Link href="#link">Blog</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#banner">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#service">Service</Nav.Link>
+
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
